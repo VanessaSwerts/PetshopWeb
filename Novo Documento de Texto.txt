@@ -1,5 +1,0 @@
-cd server-petshop
-
-npm install
-
-npm start

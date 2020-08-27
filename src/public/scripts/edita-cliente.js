@@ -16,9 +16,8 @@ const formEdicao = document.querySelector('[data-form]')
 const alerta = (classe, mensagem) => {
     const linha = document.createElement('tr');
 
-    const conteudoLinha = `
-    <div class="${classe}">${mensagem}</div>
-    
+    const conteudoLinha = `    
+    <div class="${classe}">${mensagem}</div>    
 `
     linha.innerHTML = conteudoLinha;
     return linha;
