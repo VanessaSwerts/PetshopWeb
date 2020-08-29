@@ -1,5 +1,5 @@
 # PetshopWeb
-Aplicação desenvolvida durante o curso "Fetch API: Consumindo uma API Rest com JavaScript" da Alura
+Aplicação desenvolvida durante os cursos "Fetch API: Consumindo uma API Rest com JavaScript" e "JS na Web: Criando uma SPA com JavaScript puro" da Alura.
 
 ## Executando o projeto
 
@@ -7,7 +7,7 @@ Aplicação desenvolvida durante o curso "Fetch API: Consumindo uma API Rest com
 ```
 git clone https://github.com/VanessaSwerts/PetshopWeb.git
 ```
-### Abra o terminal na pasta do projeto e siga os seguintes comandos:
+### Para inicializar o servidor local do banco de Dados, abra o terminal na pasta do projeto e siga os seguintes comandos:
 
 #### Para entrar na pasta do server-petshop:
 ```
@@ -22,5 +22,20 @@ npm install
 npm start
 ```
 
+### Para inicializar o servidor local do site , abra o terminal na pasta do projeto e siga os seguintes comandos:
 
+#### Para instalar as dependências:
+```
+npm install
+ ```
+#### Para realizar as configurações:
+```
+npm run build
+ ``` 
+#### Para iniciar o servidor da aplicação:
+```
+npm start
+```
+
+Após esses passos, o site será aberto no endereço http://localhost:8080/
  
